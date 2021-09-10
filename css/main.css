@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/racecar-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+table {
+    background-color: white;
+}
+
+/* Nav Styles */
+
+.name {
+    font-size: 200%;
+    color:black;
+}
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.nav-item {
+    font-size: 120%;
+}
+/* End of Nav Styles */
+
+#testDataForm {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#submitButton {
+    margin-bottom: 15px;
+}
+
+#clear {
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
