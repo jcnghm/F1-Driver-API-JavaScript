@@ -44,9 +44,11 @@ table {
 
 #submitButton {
     margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #clear {
-    margin-left: 5px;
+    margin-left: 15px;
     margin-bottom: 15px;
 }
