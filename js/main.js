@@ -29,8 +29,28 @@ const DOM_Elements = {
 // Creating the Table on the HTML Doc
 
 const create_list = ( position, name, points, nationality, car_number ) => {
-    const html = `<a href ="#" class="list-group-item list-group-item-action list-group-item-light" > | Position: ${position} | Name: ${name} | Points: ${points} | Nationality: ${nationality} | Car Number: ${car_number} |</a>`;
-    document.querySelector(DOM_Elements.racer_list).insertAdjacentHTML('beforeend', html)
+    const html2 = 
+    `<table class="table table-dark">
+        <thead>
+        <tr>
+            <th scope="col">Position</th>
+            <th scope="col">Name</th>
+            <th scope="col">Points</th>
+            <th scope="col">Nationality</th>
+            <th scope="col">Vehicle Number</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>${position}</td>
+            <td>${name}</td>
+            <td>${points}</td>
+            <td>${nationality}</td>
+            <td>${car_number}</td>
+        </tr>
+        </tbody>
+    </table>`
+    document.querySelector(DOM_Elements.racer_list).insertAdjacentHTML('beforeend', html2)
     
 }
 
